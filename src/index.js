@@ -8,3 +8,11 @@ document.getElementById("botonEntrar").onclick = function(){
 document.getElementById("entrar").toggleAttribute("hidden")
 }
 
+document.getElementById("botonCifrar").onclick = function(){
+        document.getElementById("cifrar").toggleAttribute("hidden")
+
+
+
+}
+
+var valor = document.getElementById("texto").value;
