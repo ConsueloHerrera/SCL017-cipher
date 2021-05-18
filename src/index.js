@@ -11,6 +11,7 @@ document.getElementById("entrar").toggleAttribute("hidden")
 document.getElementById("botonCifrar").onclick = function(){
         document.getElementById("cifrar").toggleAttribute("hidden")
 
+document.getElementById("saludo").toggleAttribute("hidden")
 
 
 }

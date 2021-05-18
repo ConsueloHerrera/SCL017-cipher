@@ -17,16 +17,21 @@
         id="botonEntrar">
       </div>
 
+      <br> </br>
+
      <div id="saludo"
           class="saludo" hidden>
-        <h1>¡Hola Lover!</h1> <br></br> 
+        <h1> <strong>¡Hola Lover!</strong></h1> 
         ¿Qué quieres hacer?
+
+        <br> </br>
+        <br> </br>
 
         <input 
         class= "boton"
-        type="button" 
-      style="margin: 10px"
+        type="button"
       value="Cifrar Mensaje"
+      id="botonCifrar"
        >
    
  <br> </br>
@@ -35,14 +40,50 @@
         <input 
         class= "boton"
         type="button" 
-        style="margin: 10px"
         value="Descifrar Mensaje"
         >
 
-
       </div>
 
-       
+        <div id="cifrar"
+        class="mensaje" hidden> 
+      
+      <h1>Escribe el mensaje que <p></p>quieres cifrar aquí </h1> 
+     
+      <br> </br>
+  
+    <textarea id="cipherText" 
+            rows="10" 
+            cols="40">Escribe tu mensaje aquí...
+          </textarea>   
+      <img src="flecha.jpg" 
+      class="flecha"
+      style="width:100px; height:150px;">
+      <br> </br>
+
+      <h2><strong>Ingresa un número del 1 al X</strong></h2>
+      <p></p>
+      (Este número indicará la cantidad de <p></p>desplazamientos de caracteres que <p></p>tendrá tu mensaje secreto)
+      
+      <img src="flecha2.jpg" 
+      class="flecha2"
+      style="width:100px; height:195px;">
+
+      <br> </br>
+      <br> </br>
+
+      <input type="text"
+              id="cipherNumber"
+              size="6"
+              >
+      <br> </br>
+      <br> </br>
+     <input type="button"
+            class="boton"
+            value= "Cifrar Mi Mensaje">
+    </div>
+
+      </div>
 
    
     <script src="index.js" type="module"></script>
