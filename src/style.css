@@ -22,17 +22,27 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   }
 
 .saludo {
   text-align: center;
   font-family: sans-serif;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-size: x-large;
   }
 
 .mensaje {
   text-align: center;
   font-family: sans-serif;
   line-height: 80%;
+  text-shadow: 1px 3px 3px rgba(0,0,0,0.3);
+  }
+  .textArea {
+  border-color:#FF0099;
+  border-width: 3px;
+  border-style: solid;
+  
   }
 
 .flecha {
@@ -49,3 +59,4 @@
   transform: rotate(340deg)
 
   }
+
