@@ -12,8 +12,18 @@ document.getElementById("botonCifrar").onclick = function(){
         document.getElementById("cifrar").toggleAttribute("hidden")
 
 document.getElementById("saludo").toggleAttribute("hidden")
-
-
 }
 
-var valor = document.getElementById("texto").value;
+document.getElementById("botonEncode").onclick = function(){
+        document.getElementById("textoCifrado").toggleAttribute("hidden")
+
+document.getElementById("cifrar").toggleAttribute("hidden")
+
+}
+document.getElementById("botonPrincipal").onclick = function(){
+        document.getElementById("saludo").toggleAttribute("hidden")
+
+        document.getElementById("textoCifrado").toggleAttribute("hidden")
+}
+
+

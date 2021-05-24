@@ -11,80 +11,78 @@
     <div id="entrar">
     <img src="logo.png" alt="logo" class="center" >
     
-      <input 
-        class= "boton"
-        type="button" 
-        value="Entrar"
-        id="botonEntrar">
+    <input 
+      class= "boton" type="button" value="Entrar"id="botonEntrar">
       </div>
 
       <br> </br>
 
-     <div id="saludo"
-          class="saludo" hidden>
+    <div id="saludo"class="saludo" hidden>
         <h1> <strong>¡Hola Lover!</strong></h1> 
         ¿Qué quieres hacer?
 
         <br> </br>
         <br> </br>
 
-        <input 
-        class= "boton"
-        type="button"
-      value="Cifrar Mensaje"
-      id="botonCifrar"
-       >
+    <input 
+      class= "boton" type="button" value="Cifrar Mensaje" id="botonCifrar">
    
  <br> </br>
   
-        <input 
-        class= "boton"
-        type="button" 
-        value="Descifrar Mensaje"
-        >
-
+    <input 
+      class= "boton" type="button" value="Descifrar Mensaje">
       </div>
 
-        <div id="cifrar"
-        class="mensaje" hidden> 
+    <div id="cifrar" class="mensaje" hidden> 
       
       <h1>Escribe el mensaje que <p></p>quieres cifrar aquí </h1> 
      
       <br> </br>
   
-    <textarea id="cipherText" 
-            class= "textArea"
-            rows="10" 
-            cols="40">Escribe tu mensaje aquí...
-          </textarea>   
-      <img src="flecha.jpg" 
-      class="flecha"
-      style="width:100px; height:180px;">
+    <textarea id="encodeText" value= "encodeText"class= "textArea" Escribe tu mensaje aquí..." rows="10" cols="40" required>
+
+            </textarea>   
+
+
+    <img src="flecha.jpg" class="flecha" style="width:100px; height:180px;">
       <br> </br>
 
-      <h2><strong>Ingresa un número del 1 al X</strong></h2>
+      <h2><strong>Elige un número</strong></h2>
       <p></p>
       (Este número indicará la cantidad de <p></p>desplazamientos de caracteres que <p></p>tendrá tu mensaje secreto)
       
-      <img src="flecha2.jpg" 
-      class="flecha2"
-      style="width:100px; height:195px;">
+    <img src="flecha2.jpg" class="flecha2" style="width:100px; height:195px;">
 
       <br> </br>
       <br> </br>
 
-      <input type="text"
-              id="cipherNumber"
-              size="6"
-              >
+    <input id= "keynumber" type="number" class= "textArea" min="1" value= '3'style="width : 40px; height: 35px" required>
+
       <br> </br>
       <br> </br>
-     <input type="button"
-            class="boton"
-            value= "Cifrar Mi Mensaje">
+    
+    <input type="button" class="boton" value= "Cifrar Mi Mensaje"id= "botonEncode">
     </div>
 
-      </div>
+    <div id="textoCifrado" class="mensaje" hidden>
+      <h1>¡Tu mensaje ha sido cifrado con éxito! </h1> 
+
+      <br> </br>
+      <img src="exito.png" class="logo" style="width:70px; height:70px;">
+
+      <br> </br>
+      <br> </br>
+  
+    <textarea id="textDecoded" value= "textDecoded"class= "textArea1"rows="10" cols="40" readonly>
+            </textarea>  
+
+    <br> </br> <br> </br>
+    <input type="button" class="boton2" value= "Descifrar Mensaje" id="boton2">
+
+    <input type="button" class="boton2" value= "Menú Principal" id="botonPrincipal">
+  
+  </div>
+     
 
    
     <script src="index.js" type="module"></script>
