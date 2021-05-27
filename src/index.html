@@ -30,18 +30,16 @@
  <br> </br>
   
     <input 
-      class= "boton" type="button" value="Descifrar Mensaje">
+      class= "boton" type="button" value="Descifrar Mensaje" id="botonDescifrar">
       </div>
 
-    <div id="cifrar" class="mensaje" hidden> 
+    <div id="cifrarMensaje" class="mensaje" hidden> 
       
       <h1>Escribe el mensaje que <p></p>quieres cifrar aquí </h1> 
      
       <br> </br>
   
-    <textarea id="encodeText" value= "encodeText"class= "textArea" Escribe tu mensaje aquí..." rows="10" cols="40" required>
-
-            </textarea>   
+    <textarea id="mensaje" value= "text1" class= "textArea" rows="10" cols="40" required ></textarea>   
 
 
     <img src="flecha.jpg" class="flecha" style="width:100px; height:180px;">
@@ -56,12 +54,12 @@
       <br> </br>
       <br> </br>
 
-    <input id= "keynumber" type="number" class= "textArea" min="1" value= '3'style="width : 40px; height: 35px" required>
+    <input id= "desplazamiento" type="number" class= "textArea" min="1" value= '3'style="width : 40px; height: 35px" required>
 
       <br> </br>
       <br> </br>
     
-    <input type="button" class="boton" value= "Cifrar Mi Mensaje"id= "botonEncode">
+    <input type="button" class="boton" value= "Cifrar Mi Mensaje"id= "cifrar">
     </div>
 
     <div id="textoCifrado" class="mensaje" hidden>
@@ -73,7 +71,7 @@
       <br> </br>
       <br> </br>
   
-    <textarea id="textDecoded" value= "textDecoded"class= "textArea1"rows="10" cols="40" readonly>
+    <textarea id="mensaje2" value= "text2"class= "textArea1"rows="10" cols="40" >
             </textarea>  
 
     <br> </br> <br> </br>
@@ -82,6 +80,25 @@
     <input type="button" class="boton2" value= "Menú Principal" id="botonPrincipal">
   
   </div>
+
+  <div id="textoDescifrado" class="mensaje" hidden>
+    <h1>¡Tu mensaje ha sido descifrado con éxito! </h1> 
+
+    <br> </br>
+    <img src="exito.png" class="logo" style="width:70px; height:70px;">
+
+    <br> </br>
+    <br> </br>
+
+  <textarea id="mensaje3" value= "text2"class= "textArea1"rows="10" cols="40" >
+          </textarea>  
+
+  <br> </br> <br> </br>
+  <input type="button" class="boton2" value= "Descifrar Mensaje" id="boton3">
+
+  <input type="button" class="boton2" value= "Menú Principal" id="botonPrincipal2">
+
+</div>
      
 
    
