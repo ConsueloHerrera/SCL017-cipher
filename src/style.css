@@ -80,7 +80,7 @@
   }
   
 .flecha2 {
-  position: fixed;
+  position: absolute;
   left: 420px;
   margin-top: -95px;
   transform: rotate(340deg)

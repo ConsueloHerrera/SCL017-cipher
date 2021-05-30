@@ -9,7 +9,7 @@
   
       
     <div id="entrar">
-    <img src="logo.png" alt="logo" class="center" >
+    <img src="img/logo.png" alt="logo" class="center" >
     
     <input 
       class= "boton" type="button" value="Entrar"id="botonEntrar">
@@ -42,14 +42,14 @@
     <textarea id="mensaje" value= "text1" class= "textArea" rows="10" cols="40" required ></textarea>   
 
 
-    <img src="flecha.jpg" class="flecha" style="width:100px; height:180px;">
+    <img src="img/flecha.jpg" class="flecha" style="width:100px; height:180px;">
       <br> </br>
 
       <h2><strong>Elige un número</strong></h2>
       <p></p>
       (Este número indicará la cantidad de <p></p>desplazamientos de caracteres que <p></p>tendrá tu mensaje secreto)
       
-    <img src="flecha2.jpg" class="flecha2" style="width:100px; height:195px;">
+    <img src="img/flecha2.jpg" class="flecha2" style="width:100px; height:195px;">
 
       <br> </br>
       <br> </br>
@@ -66,7 +66,7 @@
       <h1>¡Tu mensaje ha sido cifrado con éxito! </h1> 
 
       <br> </br>
-      <img src="exito.png" class="logo" style="width:70px; height:70px;">
+      <img src="img/exito.png" class="logo" style="width:70px; height:70px;">
 
       <br> </br>
       <br> </br>
@@ -85,7 +85,7 @@
     <h1>¡Tu mensaje ha sido descifrado con éxito! </h1> 
 
     <br> </br>
-    <img src="exito.png" class="logo" style="width:70px; height:70px;">
+    <img src="img/exito.png" class="logo" style="width:70px; height:70px;">
 
     <br> </br>
     <br> </br>
@@ -94,12 +94,39 @@
           </textarea>  
 
   <br> </br> <br> </br>
-  <input type="button" class="boton2" value= "Descifrar Mensaje" id="boton3">
 
   <input type="button" class="boton2" value= "Menú Principal" id="botonPrincipal2">
 
+  
 </div>
-     
+<div id="descifrarMensaje" class="mensaje" hidden> 
+      
+  <h1>Pega el mensaje que <p></p>quieres descifrar aquí </h1> 
+ 
+  <br> </br>
+
+<textarea id="mensajeParaDescifrar" class= "textArea" rows="10" cols="40" required ></textarea>   
+
+
+<img src="img/flecha.jpg" class="flecha" style="width:100px; height:180px;">
+  <br> </br>
+
+  <h2><strong>Elige un número</strong></h2>
+  <p></p>
+  (Indicanos la cantidad de <p></p>desplazamientos de caracteres que <p></p>tenía tu mensaje secreto)
+  
+<img src="img/flecha2.jpg" class="flecha2" style="width:100px; height:195px;">
+
+  <br> </br>
+  <br> </br>
+
+<input id= "desplazamiento2" type="number" class= "textArea" min="1" value= '3'style="width : 40px; height: 35px" required>
+
+  <br> </br>
+  <br> </br>
+
+<input type="button" class="boton" value= "Descifrar Mi Mensaje"id="botonQueDescifra">
+</div>
 
    
     <script src="index.js" type="module"></script>
