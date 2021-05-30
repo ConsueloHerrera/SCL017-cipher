@@ -49,7 +49,7 @@
   text-align: center;
   font-family: sans-serif;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  font-size: x-large;
+  font-size: xx-large;
   }
 
 .mensaje {
@@ -80,9 +80,12 @@
   }
   
 .flecha2 {
+  
+  margin-left: -320px;
+  shape-outside: margin-box;
+  margin-top: 350px;
+  transform: rotate(340deg);
   position: absolute;
-  left: 420px;
-  margin-top: -95px;
-  transform: rotate(340deg)
-  }
+  top: 0;
+}
 
