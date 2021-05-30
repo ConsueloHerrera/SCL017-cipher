@@ -54,6 +54,13 @@ De este prototipo el feedback fue el siguiente:
 * Suavizar la estética
 * Redondear botones 
 
+Los comentarios fueron escuchados y aplicados al proyecto final. 
 
+
+#### Bibliografía
+
+Cifrado Cipher
+
+https://www.youtube.com/watch?v=67z0sZX9iok
 
 
