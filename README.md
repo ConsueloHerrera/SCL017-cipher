@@ -1,4 +1,14 @@
-# Cifrado César
+
+
+
+
+<details> 
+  <summary>
+  
+  Click para desplegar Read Me Laboratoria
+   </summary>
+  
+  # Cifrado César
 
 ## Índice
 
